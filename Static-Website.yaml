@@ -1,0 +1,9 @@
+template-file-path: Static-Website.yaml
+parameters:
+  TargetRegion: us-east-2
+  GitHubOwner: respeletaDev
+  ArtifactStoreBucketTargetRegion: moaiaswfargate01
+  GitHubBranch: main
+  GitHubRepository: website
+  GitHubPersonalAccessToken: '****'
+tags: {}
