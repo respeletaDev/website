@@ -1,1 +1,10 @@
-
+version: 0.2
+env:
+  variables:
+    APP_ENV: 'prod'
+artifacts:
+  #  get files within the dist folder only
+  base-directory: '*'
+  discard-paths: yes
+  files:
+    - '**/*' 
